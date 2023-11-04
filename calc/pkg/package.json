@@ -8,5 +8,7 @@
   ],
   "module": "calc.js",
   "types": "calc.d.ts",
-  "sideEffects": false
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }
